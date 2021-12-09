@@ -1,0 +1,56 @@
+.hide {
+  display: none;
+}
+body{
+  background-color: rgb(180, 121, 247);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.wrap {
+  text-align: center;
+}
+
+.h1 {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.inputFieldLabel{
+  font-size: large;
+  color: red;
+}
+
+.input {
+  padding: 10px;
+  background: rgb(236, 234, 234);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  width: 100mm;
+  margin-left: 20px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+.ul {
+  background-color: rgb(231, 212, 253);
+  color: rgb(0, 0, 0);
+  padding-bottom: 0px;
+  min-height: 0px;
+  max-height: 100px;
+  overflow-y: scroll;
+  width: 70mm;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ul div {
+  
+  font-size: 20px;
+  line-height: 1.5;
+  display: none;
+  cursor: pointer;
+}
